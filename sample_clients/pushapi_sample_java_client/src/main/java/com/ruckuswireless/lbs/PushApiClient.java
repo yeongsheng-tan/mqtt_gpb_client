@@ -21,7 +21,7 @@ public class PushApiClient {
     public static void main(String[] args){
         try {
             // Setup TLS-PSK
-            TLSPSKClient lbsTLSPSKClient = new TLSPSKClient("rksg-dev.venue.ruckuslbs.com", "rksg-dev".getBytes(), "3132333435363738".getBytes());
+            //TLSPSKClient lbsTLSPSKClient = new TLSPSKClient("rksg-dev.venue.ruckuslbs.com", "rksg-dev".getBytes(), "abcdefghijklmnopqrstuvw".getBytes());
 
             PushApiClient pac = new PushApiClient();
             // Establish MQTT connection
